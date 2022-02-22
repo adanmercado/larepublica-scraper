@@ -1,0 +1,5 @@
+Link = //h2/a[@class!=""]/@href
+Title = //h2/a[@class!=""]/text() #//div[@class="mb-auto"]/h2/span/text()
+Author = //div[@class="author-article"]/div/button/text()
+Resume = //div[@class="lead"]/p/text()
+Content = //div[@class="html-content"]/p/text()|//div[@class="html-content"]/p/node()/text()
